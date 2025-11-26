@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() 
+{
+	int T,X,Y;
+	scanf("%d",&T);
+	while(T--){
+	    scanf("%d%d",&X,&Y);
+	    if(X>Y){
+	        printf("A\n");
+	        
+	    }
+	    else{
+	        printf("B\n");
+	        
+	    }
+	}
+return 0;
+}
+
